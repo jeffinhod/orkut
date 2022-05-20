@@ -1,0 +1,349 @@
+*{
+  border: none;
+  padding: none;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+
+  max-width: 87rem;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 0 2rem;
+  background: rgba(247, 250, 252, 0.9);
+  
+}
+header{
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+#input-ask{
+width:26rem ;
+height: 3.75rem;
+border-radius: 30px;
+border: 1.5px solid #e5e5e9;
+padding-left: 2rem;
+
+}
+
+.home-button{
+  display: flex;
+  align-items: center;
+}
+
+#home-button{
+  background: none;
+  padding-right: 1rem;
+}
+
+.insta{
+  display: flex;
+  width: 15rem;
+  height: 3.75rem;
+  justify-content: space-around;
+ 
+}
+
+
+.link span{
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 0.7rem 0;
+  
+  
+}
+
+.link a{
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #888888
+
+}
+
+.container-principal{
+  width: 51rem;
+  height: 37.5rem;
+  display: inline-block;
+  
+  
+}
+
+#box-left{
+  display: inline-block;
+  width: 16.8rem;
+  height: 37.5rem;
+  background: #FFFFFF;
+  border: 1px solid #E5E5E9;
+  border-radius: 30px;
+  position: absolute;
+
+}
+
+#box-center{
+
+  display: inline-block;
+  margin-left: 1.9rem;
+  width: 31.25rem;
+  height: 37.5rem;
+  background: #FFFFFF;
+  border: 1px solid #E5E5E9;
+  border-radius: 30px;
+  margin-left: 19rem;
+  
+}
+
+.container-lateral{
+  width: 20rem;
+  height: 57.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  float: right;
+
+}
+
+#box-up{
+  
+  width: 20rem;
+  height: 28.2rem;
+  background: #FFFFFF;
+  border: 1px solid #E5E5E9;
+  border-radius: 30px;
+}
+
+#box-down{
+  
+  width: 20rem;
+  height: 28.2rem;
+  background: #FFFFFF;
+  border: 1px solid #E5E5E9;
+  border-radius: 30px;
+
+}
+
+#img-perfil{
+  display: block; margin-left: 4.3rem;
+  margin-right: 4.3rem;
+  margin-top: 2.5rem;
+  background: none;
+}
+
+#texto-perfil{
+  margin-top: 1.1rem;
+  display: block;
+  text-align: center;
+}
+#nome-perfil{
+  font-weight: 700;
+  font-size: 22px;
+}
+
+#cidade-perfil{
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 18px;
+  color: #888888;
+  border-bottom: 3px solid #E5E5E9;
+  padding-bottom:1.3rem ;
+}
+
+.lista-perfil{
+  list-style-type: none;
+  margin-top: 2rem;    
+}
+
+.lista-icon{
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  cursor: pointer;
+}
+
+.icon-ami{
+  display: inline-block;
+  padding-right: 3rem;
+}
+
+.lista-icon img{
+
+  padding-right: 1rem;
+  background: none;
+  
+}
+
+#bio{
+  width: 31.2rem;
+  height: 3.5rem;
+  padding: 1.5rem;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+#icon-bio{
+  width: 31.2rem;
+  height: 8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #E5E5E9;
+
+
+}
+.icon-bio-descri{
+  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 18px;
+  color: #888888;
+  padding-top: 2rem;
+}
+
+.informations{
+  display: flex;
+  margin-top: 1rem;
+}
+
+.value-column,
+.title-column {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.title-column{
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.title-column p{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  color: #888888;
+  margin-top: 17px;
+  
+}
+
+
+.value-column p{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  padding-left: 1.5rem;
+ 
+}
+
+
+
+.value-column p button{
+
+  width: 100px;
+  height: 24px;
+  left: 84px;
+  top: 0px;
+  background: #E5E5E9;
+  border-radius: 12px;
+  margin-bottom: 2px;
+}
+
+#design{
+
+  color: #FFFFFF;
+  background:#ED2590 ;
+}
+
+
+
+#descri-amigos{
+  height: 3.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top:2rem ;
+}
+
+#descri-amigos p{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+#descri-amigos a{
+ text-decoration: none; 
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 15px;
+ color: #ED2590;
+}
+
+#descri-amigos a:active{
+
+  color: #af1768;
+
+}
+
+#amigos{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  margin: 1.8rem 0 0 1.8rem;
+  
+}
+
+.foto-amigos{
+  cursor: pointer;
+}
+ 
+.foto-amigos span{
+  display: block;
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  cursor: pointer;
+}
+
+.foto-amigos:active{
+  opacity: .5;
+}
+
+@media screen and (max-width:600px) {
+
+  body{
+
+   max-width: 100%;
+  }
+
+  #input-ask, #home-button{
+    display: none;
+  }
+
+  .container-principal{
+    height: 76rem;
+  }
+
+  #box-left{
+    position: static;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #box-center{
+    display: block;
+    position: static;
+    margin: 0 auto;
+  }
+}
